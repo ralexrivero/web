@@ -10,6 +10,13 @@
 
 ## Environment
 
+- VS Code
+- Bash
+- Ubuntu
+- Docker
+- html
+- css
+- javascript
 
 ## Author
 
