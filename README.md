@@ -17,6 +17,14 @@
 - html
 - css
 - javascript
+- browsers
+  - `firefox`
+- mobile browsers
+
+## Style
+
+- Kebab case like `blog-post`
+- Avoid `id` and `tag` style (only when want to apply to all the tags), use `class` always
 
 ## Author
 
