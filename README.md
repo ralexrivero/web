@@ -19,6 +19,7 @@
 - javascript
 - browsers
   - `firefox`
+  - `chrome`
 - mobile browsers
 
 ## Style
