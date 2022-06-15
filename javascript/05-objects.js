@@ -12,6 +12,16 @@ const person = {
 console.log(person)
 console.log(person.name)
 
+console.log("\nfor in\n**********************\n")
+for (key in person) {
+    console.log(key)
+}
+
+for (key in person) {
+    console.log(person[key])
+}
+console.log("\nend for in\n**********************\n")
+
 const dog = {
     name: "Spike",
     speak() {
@@ -55,3 +65,8 @@ const me = {
 console.log(me.getName());
 console.log("Address:\n" + me.getAddress());
 console.log(me);
+
+console.log("\nfor in\n*******************\n")
+for (key in me) {
+    console.log(me[key])
+}
