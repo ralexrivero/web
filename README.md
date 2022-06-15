@@ -26,6 +26,8 @@
 
 - Kebab case like `blog-post`
 - Avoid `id` and `tag` style (only when want to apply to all the tags), use `class` always
+- javascript functions names are verbs, represent actions
+- variable names are nouns, represent things
 
 ## Author
 
