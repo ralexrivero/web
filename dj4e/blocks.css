@@ -8,6 +8,54 @@
 }
 
 /* Here is one of many  CSS rules you will need... */
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#one, #two, #three, #four {
+    margin: 5px;
+    padding: 5px;
+    width: 25%;
+}
+
+#three {
+    border: 5px solid #FFA502;
+    order: 1;
+}
+
+#link {
+    background-color: #354eb1;
+    padding: 10px 9px;
+    order: 2;
+    align-self: center;
+    margin: 0 10%;
+}
+
+#two {
+    border: 5px solid #007F00;
+    order: 3;
+}
+
+#four {
+    border: 5px solid #FFFF02;
+    order: 4;
+}
+
 #one {
-    color: red;
+    border: 5px solid #0000FF;
+    order: 5;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+    padding-top: 17px !important;
+    padding-bottom: 19px !important;
 }
