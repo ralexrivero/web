@@ -19,7 +19,75 @@
 > - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
 > - CSS saves a lot of work. It can control the layout of multiple web pages all at once
 > - External stylesheets are stored in CSS files
->
+> - CSS stands for Cascading Style Sheets
+
+## Tags
+
+- <!DOCTYPE html> - Defines the document type
+
+- <html> - Defines an HTML document
+- <head> - Contains metadata/information for the document
+- <title> - Defines a title for the document
+- <body> - Defines the document's body
+- <h1> to <h6> - Defines HTML headings
+- <p> - Defines a paragraph
+- <br> - Inserts a single line break
+- <hr> - Defines a thematic change in the content
+- <!-- --> - Defines a comment
+- <a> - Defines a hyperlink
+- <img> - Defines an image
+- <ul> - Defines an unordered list
+- <ol> - Defines an ordered list
+- <li> - Defines a list item
+- <dl> - Defines a description list
+- <dt> - Defines a term/name in a description list
+- <dd> - Defines a description of a term/name in a description list
+- <table> - Defines a table
+- <tr> - Defines a row in a table
+- <th> - Defines a "header cell" / "cell" in a table
+- <td> - Defines a "cell" in a table
+- <caption> - Defines a table caption
+- <thead> - Groups the header content in a table
+- <tbody> - Groups the body content in a table
+- <tfoot> - Groups the footer content in a table
+- <col> - Specifies column properties for each column within a <colgroup> element
+- <colgroup> - Specifies a group of one or more columns in a table for formatting
+- <iframe> - Defines an inline frame
+- <div> - Defines a section in a document
+- <span> - Defines a section in a document
+- <header> - Defines a header for a document or section
+- <footer> - Defines a footer for a document or section
+- <nav> - Defines navigation links
+- <article> - Defines an article
+- <section> - Defines a section in a document
+- <aside> - Defines content aside from the page content
+- <details> - Defines additional details that the user can view or hide
+- <summary> - Defines a heading for the <details> element
+- <main> - Specifies the main content of a document
+- <mark> - Defines marked/highlighted text
+- <time> - Defines a date/time
+- <progress> - Represents the progress of a task
+- <meter> - Defines a scalar measurement within a known range (a gauge)
+- <ruby> - Defines a ruby annotation (for East Asian typography)
+- <rt> - Defines an explanation/pronunciation of characters (for East Asian typography)
+- <rp> - Defines what to show in browsers that do not support ruby annotations (for East Asian typography)
+- <wbr> - Defines a possible line-break
+- <b> - Defines bold text
+- <strong> - Defines important text
+- <i> - Defines a part of text in an alternate voice or mood
+- <em> - Defines emphasized text
+- <small> - Defines smaller text
+- <del> - Defines deleted text
+- <ins> - Defines inserted text
+- <sub> - Defines subscripted text
+- <sup> - Defines superscripted text
+- <q> - Defines a short quotation
+- <blockquote> - Defines a section that is quoted from another source
+- <cite> - Defines the title of a work
+- <dfn> - Indicates the defining instance of a term
+- <abbr> - Defines an abbreviation
+
+
 
 ## instalation
 
