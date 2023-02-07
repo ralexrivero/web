@@ -1,0 +1,27 @@
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  max-width: 480px;
+  border: 10px solid black;
+  border-radius: 4px;
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  min-width: none;
+  max-width: 480px;
+  border: 10px solid black;
+  border-radius: 4px;
+  background-color: blueviolet;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* optimizar el codigo con clases box, box-1 y box-2 */
