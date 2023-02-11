@@ -1,0 +1,14 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.float-img {
+  float: left;
+}
+
+
+p {
+  color: gray;
+}
