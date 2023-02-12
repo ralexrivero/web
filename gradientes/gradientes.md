@@ -100,3 +100,8 @@ Direcciones específicas:
     background: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 0, 0, 0) 100%);
 }
 ```
+
+### referencias
+
+- [CSS Gradient](https://cssgradient.io/)
+- [CSS Gradient Generator](https://www.colorzilla.com/gradient-editor/)
