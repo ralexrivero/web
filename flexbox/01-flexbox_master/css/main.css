@@ -1,0 +1,465 @@
+/***********************************************
+  * general
+***********************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECEFF1;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: visible;
+  padding: 1rem;
+}
+
+/***********************************************
+  * Titulos
+***********************************************/
+h1, h2, h3 {
+  align-self: flex-start;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.2rem;
+}
+
+.title_bar {
+  background: linear-gradient(to right,rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25));
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+/***********************************************
+  * parrafos
+***********************************************/
+
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 1rem;
+}
+
+/***********************************************
+  * flexbox
+***********************************************/
+
+.container {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid #212121;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px #37474F;
+}
+
+.container-large {
+  min-width: fit-content;
+  width: 100%;}
+
+.container-xl {
+  width: fit-content;
+  max-width: 80%;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #263238;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 10px #37474F;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
+}
+
+.flex-item:hover {
+  color: #ECEFF1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 10px #f3f3f3;
+  font-size: 1.75rem;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+}
+
+.flex-item-sm {
+  width: 4rem;
+  height: 4rem;
+}
+
+.flex-item-sm:hover {
+  font-size: 1.5rem;
+}
+
+.flex-item-md {
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+
+.flex-item-md:hover {
+  font-size: 2rem;
+}
+
+.flex-item-no-height {
+  width: 4rem;
+  height: auto;
+}
+
+li {
+  list-style: none;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.item-xsxl {
+  width: 5rem;
+  height: 8rem;
+}
+
+.item-xsxxl {
+  width: 5rem;
+  height: 12rem;
+}
+
+.item-i-big {
+  font-size: 3rem;
+}
+
+.item-i-small {
+  font-size: 1rem;
+}
+
+/***********************************************
+  * wrap
+***********************************************/
+
+.no_wrap {
+  flex-wrap: nowrap;
+}
+
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap_reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/***********************************************
+  * justify-content
+***********************************************/
+
+.justify_content_start {
+  justify-content: flex-start;
+}
+
+.justify_content_end {
+  justify-content: flex-end;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+.justify_content_space_between {
+  justify-content: space-between;
+}
+
+.justify_content_space_around {
+  justify-content: space-around;
+}
+
+.justify_content_space_evenly {
+  justify-content: space-evenly;
+}
+
+/***********************************************
+  * align-items
+***********************************************/
+
+.align_items_start {
+  align-items: flex-start;
+}
+
+.align_items_end {
+  align-items: flex-end;
+}
+
+.align_items_center {
+  align-items: center;
+}
+
+.align_items_baseline {
+  align-items: baseline;
+}
+
+.align_items_stretch {
+  align-items: stretch;
+}
+
+/***********************************************
+  * align-content
+***********************************************/
+
+.align_content_start {
+  align-content: flex-start;
+}
+
+.align_content_end {
+  align-content: flex-end;
+}
+
+.align_content_center {
+  align-content: center;
+}
+
+.align_content_space_between {
+  align-content: space-between;
+}
+
+.align_content_space_around {
+  align-content: space-around;
+}
+
+.align_content_stretch {
+  align-content: stretch;
+}
+
+/***********************************************
+  * flex-direction
+***********************************************/
+
+.flex_direction_row {
+  flex-direction: row;
+}
+
+.flex_direction_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_direction_column {
+  flex-direction: column;
+}
+
+.flex_direction_column_reverse {
+  flex-direction: column-reverse;
+}
+
+
+/***********************************************
+***********************************************
+  * flex items
+***********************************************
+***********************************************/
+
+/***********************************************
+  * order
+***********************************************/
+
+.order_1 {
+  order: 1;
+}
+
+.order_2 {
+  order: 2;
+}
+
+.order_3 {
+  order: 3;
+}
+
+.order_4 {
+  order: 4;
+}
+
+/***********************************************
+  * flex-grow
+***********************************************/
+.flex_grow_1 {
+  flex-grow: 1;
+}
+
+.flex_grow_2 {
+  flex-grow: 2;
+}
+
+.flex_grow_3 {
+  flex-grow: 3;
+}
+
+.flex_grow_4 {
+  flex-grow: 4;
+}
+
+/***********************************************
+  * flex-shrink
+***********************************************/
+
+.flex_shrink_1 {
+  flex-shrink: 1;
+}
+
+.flex_shrink_2 {
+  flex-shrink: 2;
+}
+
+.flex_shrink_3 {
+  flex-shrink: 3;
+}
+
+/***********************************************
+  * flex-basis
+***********************************************/
+
+.flex_basis_1 {
+  flex-basis: 1rem;
+}
+
+.flex_basis_2 {
+  flex-basis: 2rem;
+}
+
+.flex_basis_3 {
+  flex-basis: 3rem;
+}
+
+/***********************************************
+  * align-self
+***********************************************/
+
+.align_self_start {
+  align-self: flex-start;
+}
+
+.align_self_end {
+  align-self: flex-end;
+}
+
+.align_self_center {
+  align-self: center;
+}
+
+.align_self_baseline {
+  align-self: baseline;
+}
+
+.align_self_stretch {
+  align-self: stretch;
+}
+
+/***********************************************
+  * flex-flow
+***********************************************/
+
+.flex_flow_row {
+  flex-flow: row;
+}
+
+.flex_flow_row_reverse {
+  flex-flow: row-reverse;
+}
+
+.flex_flow_column {
+  flex-flow: column;
+}
+
+.flex_flow_column_reverse {
+  flex-flow: column-reverse;
+}
+
+.flex_flow_wrap {
+  flex-flow: wrap;
+}
+
+.flex_flow_wrap_reverse {
+  flex-flow: wrap-reverse;
+}
+
+/***********************************************
+  * flex
+***********************************************/
+
+.flex_1 {
+  flex: 1;
+}
+
+.flex_2 {
+  flex: 2;
+}
+
+.flex_3 {
+  flex: 3;
+}
+
+.flex_4 {
+  flex: 4;
+}
+
+/***********************************************
+  * gradientes
+***********************************************/
+
+.grad_1 {
+  background: linear-gradient(45deg, #2196F3, #F44336);
+}
+
+.grad_2 {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.grad_3 {
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+.grad_4 {
+  background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+}
+
+.conic-gradient {
+  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+}
