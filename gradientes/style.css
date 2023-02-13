@@ -141,3 +141,35 @@ body {
     #fff 360deg
   );
 }
+
+.repeat-1 {
+  background: repeating-linear-gradient(
+    45deg,
+    #f1f1f1,
+    #f1f1f1 10px,
+    #d3d3d3 10px,
+    #d3d3d3 20px
+  );
+}
+
+/* .repeat-2 {
+  background: repeating-linear-gradient(
+
+
+}
+
+.repeat-3 {
+  background: repeating-linear-gradient(
+  90deg,
+
+
+} */
+
+.repeat-r-1 {
+  background:
+    repeating-radial-gradient(
+      circle at 0 0,
+      #eee,
+      #ccc 50px
+    );
+}
