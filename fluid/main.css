@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+main {
+  width: 70%;
+  /* min-width: fit-content; */
+  margin-right: 5%;
+  float: left;
+  background-color: chocolate;
+}
+
+aside {
+  width: 25%;
+  /* min-width: fit-content; */
+  float: left;
+  background-color: burlywood;
+}
+
+.img-container {
+  padding: 1rem;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+p {
+  margin: .5rem;
+}
