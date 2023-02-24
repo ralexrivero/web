@@ -1,0 +1,80 @@
+/*************************************************
+ * gradientes
+**************************************************/
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient(135deg, rgba(255, 0, 0, .3), rgba(255, 165, 0, 3), rgba(255, 255, 0, .3), rgba(0, 255, 0, .3), rgba(0, 0, 255, .3), rgba(75, 0, 130, .3), rgba(148, 0, 211, .3));
+}
+
+/*********************************
+ * arcoíris rgb
+    Rojo: (255, 0, 0)
+    Naranja: (255, 165, 0)
+    Amarillo: (255, 255, 0)
+    Verde: (0, 255, 0)
+    Azul: (0, 0, 255)
+    Añil: (75, 0, 130)
+    Violeta: (148, 0, 211)
+  * arcoíris hexadecimal
+    Rojo: #FF0000
+    Naranja: #FFA500
+    Amarillo: #FFFF00
+    Verde: #00FF00
+    Azul: #0000FF
+    Añil: #4B0082
+    Violeta: #9400D3
+*********************************/
+header {
+  background: rgb(205,53,38);
+  background: linear-gradient(121deg, rgba(205,53,38,0.6) 5%, rgba(205,53,38,0.8) 15%, rgba(205,53,38,0.8) 85%, rgba(205,53,38,0.8) 95%);
+}
+
+aside {
+  background: linear-gradient(90deg, rgba(68,68,68,.2) 5%, rgba(34,34,34,.1) 15%, rgba(34,34,34,.1) 85%, rgba(68,68,68,.2) 95%);
+}
+
+footer {
+  background: rgb(68,68,68);
+  background: linear-gradient(90deg, rgba(68,68,68,1) 5%, rgba(34,34,34,1) 15%, rgba(34,34,34,1) 85%, rgba(68,68,68,1) 95%);
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: rgb(205,53,38);
+    background: linear-gradient(121deg, rgba(205,53,38,0.2) 5%, rgba(205,53,38,0.5) 15%, rgba(205,53,38,0.5) 85%, rgba(205,53,38,0.2) 95%);
+  }
+
+
+  .aside-links:link {
+    background-image: linear-gradient(to right, #E6DADA 0%, #274046  51%, #E6DADA  100%);
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 5px #eee;
+    border-radius: .5rem;
+    display: block;
+  }
+
+  .aside-links:visited {
+    color: #222;
+  }
+
+  .aside-links:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+}
