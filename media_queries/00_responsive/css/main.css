@@ -128,9 +128,12 @@ i {
 
 
 article {
-  margin: 1rem;
+  /* fase2 */
+  /* margin: 1rem; */
+  margin: .5rem .2rem ;
   flex-basis: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding: .75rem .5rem;
   border: 1px solid #ccc;
   border-radius: .25rem;
   background-color: #f5f5f5;
@@ -172,7 +175,8 @@ header {
 }
 
 main {
-  padding: 1rem;
+   /* fase2 */
+  /* padding: 1rem; */
   grid-area: main;
 }
 
@@ -267,3 +271,18 @@ footer {
     justify-content: flex-start;
   }
 }
+
+/*******************************
+ * imágenes fluidas
+*******************************/
+
+  .img-fluid {
+    padding-top: .7rem;
+  }
+
+ /* fase2 */
+  img {
+    max-width: 100%;
+    border-radius: .3rem;
+    box-shadow: 1px 1px 3px #ccc;
+  }
