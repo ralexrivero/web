@@ -36,7 +36,9 @@ aside {
 
 footer {
   background: rgb(68,68,68);
-  background: linear-gradient(90deg, rgba(68,68,68,1) 5%, rgba(34,34,34,1) 15%, rgba(34,34,34,1) 85%, rgba(68,68,68,1) 95%);
+  /* background: linear-gradient(90deg, rgba(68,68,68,1) 5%, rgba(34,34,34,1) 15%, rgba(34,34,34,1) 85%, rgba(68,68,68,1) 95%); */
+  background: rgb(68,68,68);
+  background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(51,51,51,1) 10%, rgba(51,51,51,1) 90%, rgba(68,68,68,1) 100%);
 }
 
 
