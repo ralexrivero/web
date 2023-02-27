@@ -38,25 +38,34 @@ footer {
   background: rgb(68,68,68);
   /* background: linear-gradient(90deg, rgba(68,68,68,1) 5%, rgba(34,34,34,1) 15%, rgba(34,34,34,1) 85%, rgba(68,68,68,1) 95%); */
   background: rgb(68,68,68);
-  background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(51,51,51,1) 10%, rgba(51,51,51,1) 90%, rgba(68,68,68,1) 100%);
+  background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(51,51,51,1) 6%, rgba(51,51,51,1) 94%, rgba(68,68,68,1) 100%);
 }
 
 
 @media screen and (min-width: 768px) {
+  header {
+    background: rgb(34,34,34);
+    background: linear-gradient(120deg, rgba(34,34,34,1) 0%, rgba(68,68,68,1) 100%);
+    align-items: center;
+  }
   body {
-    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+    background: rgb(34,34,34);
+    background: linear-gradient(120deg, rgba(68,68,68,.1) 0%, rgba(34,34,34,.1) 100%);
   }
 }
 
 @media screen and (min-width: 1024px) {
   body {
-    background: rgb(205,53,38);
-    background: linear-gradient(121deg, rgba(205,53,38,0.2) 5%, rgba(205,53,38,0.5) 15%, rgba(205,53,38,0.5) 85%, rgba(205,53,38,0.2) 95%);
+    background-image: linear-gradient(90deg, rgba(240, 240, 240,1), rgba(34, 34, 34, 1));
+    /* background: repeating-linear-gradient(45deg, #333333 0, #333333 5%, #4f4f4f 0, #4f4f4f 50%) 0 / 10px 10px; */
   }
 
+  aside {
+    background-image: linear-gradient(to right, rgba(24, 24, 24, .3) 5%, rgba(255, 255, 255, .1) 96%);
+  }
 
   .aside-links:link {
-    background-image: linear-gradient(to right, #E6DADA 0%, #274046  51%, #E6DADA  100%);
+    background-image: linear-gradient(to right, #E6DADA 0%, #555  51%, #E6DADA  100%);
     margin: .5rem;
     padding: .5rem;
     text-align: center;
@@ -67,6 +76,7 @@ footer {
     box-shadow: 0 0 5px #eee;
     border-radius: .5rem;
     display: block;
+    font-size: .9rem;
   }
 
   .aside-links:visited {
@@ -77,6 +87,10 @@ footer {
     background-position: right center;
     color: #fff;
     text-decoration: none;
+  }
+
+  article {
+    box-shadow: 1px 1px 4px #111;
   }
 
 }
