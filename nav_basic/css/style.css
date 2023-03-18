@@ -1,0 +1,145 @@
+/************************************************
+ * Navbar basic
+ * base color: #1A237E; indigo
+ * mobile first strategy
+ ************************************************/
+
+/************************************************
+ * basic reset
+ ************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************************************
+ * general
+ ************************************************/
+
+body {
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/************************************************
+ * navigation block
+ ************************************************/
+
+.nav-header {
+  position: relative;
+}
+
+.nav-header-container {
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+
+
+/************************************************
+ * links
+ ************************************************/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/************************************************
+ * link states
+ ************************************************/
+.nav-header-links {
+  display: block;
+  padding: .5rem;
+  transition: all .25s ease-in-out;
+  font-size: 1.3rem;
+  color: #1A237E;
+}
+
+.nav-header-links:link {
+  color: #1A237E;
+}
+
+.nav-header-links:visited {
+  color: #1A237E;
+}
+
+.nav-header-links:focus {
+  border: 1px dotted #7e761a;
+}
+
+.nav-header-links:hover {
+  color: #eee;
+  background-color: #3f50b5;
+}
+
+.nav-header-links:active {
+  color: #3f50b5;
+  background-color: #c7db3c;
+}
+
+/* when a link is already active */
+.nav-header-links-visited:link,
+.nav-header-links-visited:visited {
+  color: #aab32e;
+  pointer-events: none;
+}
+
+/************************************************
+ * burger
+ ************************************************/
+.fa-bars{
+  color: #1A237E;
+  font-size: 2rem;
+  padding: .5rem;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+}
+
+.fa-bars:hover {
+  color: #3f50b5;
+}
+
+.fa-bars:active {
+  color: #7e761a;
+}
+
+.fa-bars-clicked {
+  rotate: 90deg;
+}
+
+/************************************************
+ * switch from burger to display menu items
+ ************************************************/
+ .show {
+  left: 0;
+}
+
+/************************************************
+ * media queries
+ ************************************************/
+
+@media screen and (min-width:768px) {
+
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    left:0;
+  }
+
+  .nav-header-links {
+    width: 100%;
+  }
+}
