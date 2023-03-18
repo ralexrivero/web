@@ -25,4 +25,3 @@ burger.addEventListener('click', () => {
     navHeader.classList.add('show');
   }
 });
-
