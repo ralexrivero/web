@@ -26,6 +26,10 @@ li {
   margin-right: .5rem;
 }
 
+button {
+  border: none;
+}
+
 .light-mode-btn, .dark-mode-btn {
   display: flex;
   flex-wrap: nowrap;
